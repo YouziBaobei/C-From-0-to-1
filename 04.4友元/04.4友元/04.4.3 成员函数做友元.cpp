@@ -45,6 +45,7 @@ void GoodGay::visit() {
 };
 void GoodGay::visit02() {
 	cout << "visit02函数正在访问：" << building->m_SettingRoom << endl;
+	// cout << "visit02函数正在访问：" << building->m_BedRoom << endl; //无法访问 private 成员
 };
 void test01() {
 	GoodGay gg;
